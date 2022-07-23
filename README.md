@@ -1,6 +1,7 @@
 # Homework-Assignments
 
 Homework assignments from programming courses at the University of Iowa.
+This may include some other assignments as well like labs or in class work.
 
 Classes:
  - ENGR:1300 - Introduction to Engineering Computing (Fall 2020)
