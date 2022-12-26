@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="492.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <ComboBox fx:id="comboBox" layoutX="23.0" layoutY="168.0" onAction="#loadDistrictData" prefHeight="32.0"
+              prefWidth="256.0" promptText="--- Select Item ---" AnchorPane.leftAnchor="16.0"
+              AnchorPane.topAnchor="112.0"/>
+    <RadioButton fx:id="radioButton1" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#radioButtons"
+                 text="Other" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="16.0"/>
+    <RadioButton fx:id="radioButton2" layoutX="14.0" layoutY="118.0" mnemonicParsing="false" onAction="#radioButtons"
+                 text="Democrat" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="48.0"/>
+    <RadioButton fx:id="radioButton3" layoutX="14.0" layoutY="136.0" mnemonicParsing="false" onAction="#radioButtons"
+                 text="Republican" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="80.0"/>
+    <PieChart fx:id="pieChart" labelsVisible="false" layoutX="328.0" layoutY="158.0" legendVisible="false"
+              prefHeight="256.0" prefWidth="256.0" title="Electoral Votes" AnchorPane.rightAnchor="16.0"
+              AnchorPane.topAnchor="16.0"/>
+    <Text layoutX="390.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Blue) Democratic Votes: "
+          textAlignment="RIGHT" wrappingWidth="185.0" AnchorPane.rightAnchor="84.0" AnchorPane.topAnchor="278.0">
+        <font>
+            <Font size="14.0"/>
+        </font>
+    </Text>
+    <Text layoutX="390.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Red) Republican Votes: "
+          textAlignment="RIGHT" wrappingWidth="179.0" AnchorPane.rightAnchor="84.0" AnchorPane.topAnchor="300.0">
+        <font>
+            <Font size="14.0"/>
+        </font>
+    </Text>
+    <Text layoutX="383.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Gray) Other Votes: "
+          textAlignment="RIGHT" wrappingWidth="148.0" AnchorPane.rightAnchor="84.0" AnchorPane.topAnchor="322.0">
+        <font>
+            <Font size="14.0"/>
+        </font>
+    </Text>
+    <Text fx:id="democratText" layoutX="516.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"
+          textAlignment="CENTER" wrappingWidth="48.0" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="278.0">
+        <font>
+            <Font size="14.0"/>
+        </font>
+    </Text>
+    <Text fx:id="republicanText" layoutX="516.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"
+          textAlignment="CENTER" wrappingWidth="48.0" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="300.0">
+        <font>
+            <Font size="14.0"/>
+        </font>
+    </Text>
+    <Text fx:id="otherText" layoutX="516.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"
+          textAlignment="CENTER" wrappingWidth="48.0" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="322.0">
+        <font>
+            <Font size="14.0"/>
+        </font>
+    </Text>
+    <ImageView fx:id="imageView" fitHeight="300.0" fitWidth="420.0" layoutX="24.0" layoutY="190.0" pickOnBounds="true"
+               AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="24.0"/>
+    <Text fx:id="winnerText" layoutX="476.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winner: "
+          wrappingWidth="194.0" AnchorPane.bottomAnchor="100.0" AnchorPane.rightAnchor="72.0">
+        <font>
+            <Font size="16.0"/>
+        </font>
+    </Text>
+</AnchorPane>

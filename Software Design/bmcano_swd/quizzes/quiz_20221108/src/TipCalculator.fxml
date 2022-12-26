@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TipCalculatorController">
+   <children>
+      <GridPane alignment="CENTER" layoutX="32.0" layoutY="26.0" prefHeight="364.0" prefWidth="561.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="16.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="89.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="472.0" minWidth="10.0" prefWidth="472.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="114.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="114.0" minHeight="5.0" prefHeight="51.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="114.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.0" minHeight="10.0" prefHeight="59.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="232.0" minHeight="10.0" prefHeight="71.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="159.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button id="calculateButton" mnemonicParsing="false" prefHeight="61.0" prefWidth="472.0" text="Calculate" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Slider id="tipPercentageSlider" blockIncrement="5.0" majorTickUnit="1.0" max="30.0" minorTickCount="1" snapToTicks="true" value="15.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField id="totalTextField" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField id="tipTextField" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField id="amountTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Amount" textAlignment="RIGHT" wrappingWidth="86.0" GridPane.rowIndex="1" />
+            <Text id="tipPercentageLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="0%" textAlignment="RIGHT" wrappingWidth="86.0" GridPane.rowIndex="2" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tip" textAlignment="RIGHT" wrappingWidth="86.0" GridPane.rowIndex="3" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total" textAlignment="RIGHT" wrappingWidth="86.0" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
