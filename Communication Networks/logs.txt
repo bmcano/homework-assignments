@@ -1,0 +1,23 @@
+PS C:\Users\Brand\Desktop> python client.py ec2-3-142-225-109.us-east-2.compute.amazonaws.com 12345 01384277
+UDP data sent: 01384277
+UDP data received: Address: ec2-3-142-225-109.us-east-2.compute.amazonaws.com, port number: 52242, secret number: 1
+TCP data send: Brandon
+UDP data sent: 01384277
+UDP data received: ec2-3-142-225-109.us-east-2.compute.amazonaws.com, 52242, 1
+TCP data send: hello
+TCP data received: (1) Hello, traveler! On your esteemed quest to finish this project, you approach a scary bridge guarded by a bridge keeper. To cross, you must first answer his riddles.
+
+Riddle 1: WHAT is your name?
+Next message to send? BrandonTCP data send: Brandon
+TCP data received (2) Very well, BRANDON. Riddle 2: WHAT be your STUDENT ID NUMBER?
+Next message to send? 01384277
+TCP data send: 01384277
+TCP data received (3) How original, 01384277. Riddle 3: WHAT is your SECRET NUMBER in 4-bit binary?
+Next message to send? 0001
+TCP data send: 0001
+TCP data received (4) BRANDON tells no lie. So be it. Okay, Riddle 4: WHAT is your FAVORITE COLOUR?
+Next message to send? Green
+TCP data send: Green
+TCP data received (5) Right, off you go. The bridge keeper allows BRANDON to cross, granting this as a reward: https://youtu.be/OnWvF_PD2N4
+Next message to send? quit
+closing connection
