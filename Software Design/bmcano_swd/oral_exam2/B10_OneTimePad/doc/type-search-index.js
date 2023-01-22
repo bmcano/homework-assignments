@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Decryptor"},{"p":"<Unnamed>","l":"EasyEncryption"},{"p":"<Unnamed>","l":"Encryptor"},{"p":"<Unnamed>","l":"KeyGenerator"},{"p":"<Unnamed>","l":"MediumEncryption"},{"p":"<Unnamed>","l":"OneTimePadDriver"}];updateSearchResults();
