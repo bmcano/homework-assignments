@@ -1,5 +1,7 @@
 # Introduction-to-Engineering-Computing
 
+### Professor: Mona Garvin
+
 These homework assignments were from my first college programming class `ENGR:1300`.
 
 Homeworks 1-6 were all done in `C++`, while homework 7 was done in `MATLAB`.

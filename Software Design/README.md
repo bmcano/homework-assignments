@@ -1,5 +1,7 @@
 # Introduction to Software Design
 
+### Professor: Hans Johnson
+
 This class was comprised of 8 homework assignments and one group project that we had a weekend to work on.
 
 The GitLab repository we had to use included all the textbook examples and had the occasional inclass quiz.

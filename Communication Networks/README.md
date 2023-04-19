@@ -1,4 +1,4 @@
-## Communication Netoworks
+# Communication Netoworks
 
 ### Professor: Tyler Bell
 
