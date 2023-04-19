@@ -6,7 +6,7 @@ import sys
 
 address = sys.argv[1] # ec2-3-142-225-109.us-east-2.compute.amazonaws.com
 port = sys.argv[2] # 12345
-studentID = sys.argv[3] # student ID - 01384277
+studentID = sys.argv[3] # student ID
 
 try:
     # create a UDP socket
