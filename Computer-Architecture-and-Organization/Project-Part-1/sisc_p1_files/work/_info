@@ -1,0 +1,195 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files
+valu
+Z1 !s110 1678658731
+!i10b 1
+!s100 ?FYPeRc<O_A68BlhmbGOi1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ID8gz_2i_2[z?AoS27YelX0
+R0
+Z3 w1677250106
+8//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/alu.v
+F//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/alu.v
+!i122 24
+L0 6 165
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OP;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1678658730.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/alu.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/alu.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vctrl
+R1
+!i10b 1
+!s100 0ZD90[mO6LcFnH]2K^lUX3
+R2
+IH<QZEPN71m9k9jGem]I@P2
+R0
+w1678658009
+8//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/ctrl.v
+F//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/ctrl.v
+!i122 25
+L0 6 130
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1678658731.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/ctrl.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/ctrl.v|
+!i113 1
+R6
+R7
+vmux32
+Z9 !s110 1678658732
+!i10b 1
+!s100 :X@CNUBVz0Z;aCJ_OFS[b2
+R2
+I_K:J?NI=M0RG@XjYb]lVf2
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/mux32.v
+F//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/mux32.v
+!i122 27
+L0 6 33
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/mux32.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/mux32.v|
+!i113 1
+R6
+R7
+vmux4
+R1
+!i10b 1
+!s100 RE<We:R5;YY3KVTVmMe_A2
+R2
+IW^e[?EJzeEf=^Y5Da6WQ21
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/mux4.v
+F//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/mux4.v
+!i122 26
+L0 6 31
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/mux4.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/mux4.v|
+!i113 1
+R6
+R7
+vrf
+R9
+!i10b 1
+!s100 8XAjmi[>K`TmI[OID@j8L0
+R2
+I79ODJ2E9Q1S[G:aJobIDU3
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/rf.v
+F//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/rf.v
+!i122 28
+L0 6 66
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1678658732.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/rf.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/rf.v|
+!i113 1
+R6
+R7
+vsisc
+!s110 1678658828
+!i10b 1
+!s100 nO6bSmW`zzil4POJ5@;kD1
+R2
+Ie1SSGo^4o7ZNKUHIYVe^51
+R0
+w1678658810
+8//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/sisc.v
+F//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/sisc.v
+!i122 32
+L0 6 38
+R4
+R5
+r1
+!s85 0
+31
+!s108 1678658827.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/sisc.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/sisc.v|
+!i113 1
+R6
+R7
+vsisc_tb
+R9
+!i10b 1
+!s100 AcWFXf[k<[dd0c`i7Yg2D2
+R2
+IheoKhjlfC]EABGFMOnf;;1
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/sisc_tb_p1.v
+F//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/sisc_tb_p1.v
+!i122 30
+L0 6 75
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/sisc_tb_p1.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/sisc_tb_p1.v|
+!i113 1
+R6
+R7
+vstatreg
+!s110 1678658733
+!i10b 1
+!s100 MJkL87QlS:::zz=oZ=a3h3
+R2
+IRFnJPIo4F2ifAIGl:@cFl0
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/statreg.v
+F//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/statreg.v
+!i122 31
+L0 6 34
+R4
+R5
+r1
+!s85 0
+31
+!s108 1678658733.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/statreg.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/bmcano/windowsdata/Desktop/COA Project/sisc_p1_files/sisc_p1_files/statreg.v|
+!i113 1
+R6
+R7
