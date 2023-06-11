@@ -1,0 +1,3 @@
+myfun(do(a,b),c);
+call(f(a),g(h(i(a,b))));
+go();

@@ -1,0 +1,12 @@
+Code Quality Points:
+
+1. Reading: 10/10 points
+2. Running: 10/10 points
+3. Parallel: 15/15 points
+4. Sorting: 10/10 points
+
+Autotest Score: 85/85 points
+
+Total Score: 130/130 points
+
+Notes: Since it was not clearly required in project scope, the missing points for hidden test 3 regarding parallel have been returned due to a correct parallel form.

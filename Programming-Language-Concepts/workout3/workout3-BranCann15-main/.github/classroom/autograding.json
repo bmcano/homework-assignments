@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "runhaskell Test1.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "runhaskell Test2.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "runhaskell Test3.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "runhaskell Test4.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "runhaskell Test5.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "runhaskell Test6.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "runhaskell Test7.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "runhaskell Test8.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 13
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "runhaskell Test9.hs",
+      "input": "",
+      "output": "Passing.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 13
+    }
+  ]
+}
