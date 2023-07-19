@@ -12,7 +12,5 @@ Each class will have a README that contains different information relating to th
 | `ECE:3330`   | [Introduction to Software Design](https://github.com/BranCann15/Homework-Assignments/tree/main/Software%20Design) | Fall 2022 |
 | `ECE:3350`   | [Computer Architecture and Organization](https://github.com/BranCann15/Homework-Assignments/tree/main/Computer-Architecture-and-Organization) | Spring 2023 |
 | `ECE:3360`   | [Embedded Systems](https://github.com/BranCann15/Homework-Assignments/tree/main/Embedded-Systems) | Spring 2023 |
-| `ECE:3540`   | [Communication Networks](https://github.com/BranCann15/Homework-Assignments/tree/main/Communication%20Networks) | Fall 2022 |
 | `ENGR:1300`  | [Introduction to Engineering Computing](https://github.com/BranCann15/Homework-Assignments/tree/main/Introduction-to-Engineering-Computing) | Fall 2020 |
 | `ENGR:2730`  | [Computers in Engineering](https://github.com/BranCann15/Homework-Assignments/tree/main/Computers-In-Engineering) | Fall 2021 |
-
