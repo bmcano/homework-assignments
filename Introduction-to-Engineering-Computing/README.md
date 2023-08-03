@@ -2,19 +2,8 @@
 
 ### Professor: Mona Garvin
 
-These homework assignments were from my first college programming class `ENGR:1300`.
+#### Course Description (MyUI):
+Engineering problem solving using computers; introduction to digital computations, problem formulation using a procedural high-level language; structured, top-down program design methodology; debugging and testing; introduction to use of software libraries; examples from numerical analysis and contemporary applications in engineering.
 
+#### Assignment Notes:
 Homeworks 1-6 were all done in `C++`, while homework 7 was done in `MATLAB`.
-
-Extra credit was assigned for early submissions.
-
-### Grades:
- - `hw1` -> **105/100**
- - `hw2` -> **105/100**
- - `hw3` -> **105/100**
- - `hw4` -> **102.9/100**
- - `hw5` -> **105/100**
- - `hw6` -> **103.95/100**
- - `hw7` -> **106.7/100**
- 
-### Final Grade: `A`

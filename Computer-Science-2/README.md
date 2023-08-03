@@ -1,3 +1,8 @@
 # Computer Science 2: Data Structures
 
 ### Brandon Meyers
+
+#### Course Description (MyUI):
+In Computer Science I, you learned to think algorithmically, solving problems using computers by putting to work the tools of a programming language. How do you know whether a program you wrote is a good one? It seems to produce right answers, but is it efficient? is it robust to errors? is the program well-organized and able to be built upon? In Computer Science II, you will learn how to design well-engineered programs, while further expanding your problem solving tool box and improving your problem solving skills. Your new problem solving toolbox will involve new programming constructs, an understanding of data structures, and the ability to mathematically analyze the complexity of an algorithm. Data structures, such as lists, queues, and trees, are methods of storing data. The way that your program needs to access its data determines which data structures are appropriate and efficient for your task. You’ll learn how to implement data structures, as well as how to pick the right data structures for your situation. Further, you’ll learn techniques for building good software, such as testing, interfaces, and design patterns. The programming language is Java or C++. The course involves a 2 midterms and final exam and multiple programming and homework assignments.
+
+Lectures are taught by a faculty member; discussion sections are led by TAs.

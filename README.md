@@ -1,7 +1,7 @@
 # Homework-Assignments
 
 This repository has my past homework assignments and projects that required some sort of programming from classes I took at the University of Iowa. 
-Each class will have a README that contains different information relating to the class like assignment grades and professors for example.
+Each class will have a README that contains information relating to the course.
 
 ### Classes
 | Class Number | Class Name | Session |  

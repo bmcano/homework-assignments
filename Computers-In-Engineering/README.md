@@ -2,6 +2,5 @@
 
 ### Gary Christensen
 
-Homework assignments from my ENGR:2730 (Computers in Engineering) course.
-
-There will be a README in each homework asssignment directory explaining the general idea of the assignment. Some of them were just adding comments to other code explaining what was going on, and most was programming our own projects.
+#### Course Description (MyUI):
+Advanced programming; good software engineering techniques including pseudocode and documentation dynamic data structures, recursive programming, procedural and object-oriented computing, inheritance, and standard template library; C++.
