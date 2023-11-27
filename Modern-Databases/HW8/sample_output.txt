@@ -1,0 +1,75 @@
+Sample Outputs:
+
+Step 1:
+
+Enter your user ID number (1-600):
+1
+Welcome, Brandon!
+
+Enter your user ID number (1-600):
+3
+Enter your name: Bob
+Name 'Bob' added for User ID 3.
+Welcome, Bob!
+
+Enter your user ID number (1-600):
+601
+The value you entered is not within the range of 1-600.
+Enter your user ID number (1-600):
+
+Step 2: With user_id=1
+
+Search for a movie: Star Wars
+Title: Star Wars: Episode I - The Phantom Menace (1999)
+Genres: Action, Adventure, Sci-Fi
+Average Rating: 4.0
+User Has Rated: True
+User's Rating: N/A
+
+Title: Star Wars: Episode IV - A New Hope (1977)
+Genres: Action, Adventure, Sci-Fi
+Average Rating: 5.0
+User Has Rated: True
+User's Rating: N/A
+
+Title: Star Wars: Episode V - The Empire Strikes Back (1980)
+Genres: Action, Sci-Fi, Adventure
+Average Rating: 5.0
+User Has Rated: True
+User's Rating: N/A
+
+Title: Star Wars: Episode VI - Return of the Jedi (1983)
+Genres: Action, Sci-Fi, Adventure
+Average Rating: 5.0
+User Has Rated: True
+User's Rating: N/A
+
+Step 3/4/5:
+        Select an option:
+        1. Search for a movie
+        2. Get top 5 movie recommendations (and add reviews to these)
+        3. Exit
+        2
+Vacation (2015), Movie ID: 136598
+Asterix and the Vikings (Astérix et les Vikings) (2006), Movie ID: 91355
+Chill Factor (1999), Movie ID: 2835
+Jewel of the Nile, The (1985), Movie ID: 2405
+Free Willy 2: The Adventure Home (1995), Movie ID: 169
+
+Of the listed movies, which one (movie_id) would you like to add a rating to? sa
+Enter a valid integer/float values.
+
+Of the listed movies, which one (movie_id) would you like to add a rating to? 2
+Please enter a valid ID from the listed movies.
+
+Of the listed movies, which one (movie_id) would you like to add a rating to? 169
+
+What rating would you like to add (format=x.x)? 4.0
+Rating added: <Record r.rating=4.0>
+
+        Select an option:
+        1. Search for a movie
+        2. Get top 5 movie recommendations (and add reviews to these)
+        3. Exit
+3
+Closing connection...
