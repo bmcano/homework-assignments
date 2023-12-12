@@ -1,0 +1,15 @@
+// PDA
+digraph {
+	1 [label=1 shape=circle]
+	2 [label=2 shape=circle]
+	3 [label=3 shape=circle]
+	1 -> 2 [label="ε, +L"]
+	2 -> 2 [label="(, +X"]
+	2 -> 2 [label="), -X"]
+	2 -> 3 [label="ε, -L"]
+	Start [shape=point]
+	Start -> 1 [arrowhead=normal]
+	3 [label=3 shape=doublecircle]
+	rankdir=LR
+	layout=dot
+}
