@@ -8,7 +8,7 @@ Each class will have a README that contains information relating to the course.
 |--------------|------------|---------|
 | `CS:1210`    | [Computer Science 1: Fundamentals](https://github.com/bmcano/Homework-Assignments/tree/main/Computer-Science-1) | Spring 2021 |
 | `CS:2230`    | [Computer Science 2: Data Structures](https://github.com/bmcano/Homework-Assignments/tree/main/Computer-Science-2) | Spring 2022 |
-| `CS:3620`    | Operating Systems (*In progress*) | Fall 2023 |
+| `CS:3620`    | [Operating Systems](https://github.com/bmcano/Homework-Assignments/tree/main/Operating-Systems) | Fall 2023 |
 | `CS:3820`    | [Programming Language Concepts](https://github.com/bmcano/Homework-Assignments/tree/main/Programming-Language-Concepts) | Spring 2023 |
 | `ECE:3330`   | [Introduction to Software Design](https://github.com/bmcano/Homework-Assignments/tree/main/Software%20Design) | Fall 2022 |
 | `ECE:3350`   | [Computer Architecture and Organization](https://github.com/bmcano/Homework-Assignments/tree/main/Computer-Architecture-and-Organization) | Spring 2023 |
@@ -18,3 +18,4 @@ Each class will have a README that contains information relating to the course.
 | `ECE:5845`   | Modern Databases (*In progress*) | Fall 2023 |
 | `ENGR:1300`  | [Introduction to Engineering Computing](https://github.com/bmcano/Homework-Assignments/tree/main/Introduction-to-Engineering-Computing) | Fall 2020 |
 | `ENGR:2730`  | [Computers in Engineering](https://github.com/bmcano/Homework-Assignments/tree/main/Computers-In-Engineering) | Fall 2021 |
+| `Misc.`      | [Miscellaneous Assignments/Projects](https://github.com/bmcano/Homework-Assignments/tree/main/Miscellaneous) | - |
