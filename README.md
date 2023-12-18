@@ -13,9 +13,9 @@ Each class will have a README that contains information relating to the course.
 | `ECE:3330`   | [Introduction to Software Design](https://github.com/bmcano/Homework-Assignments/tree/main/Software%20Design) | Fall 2022 |
 | `ECE:3350`   | [Computer Architecture and Organization](https://github.com/bmcano/Homework-Assignments/tree/main/Computer-Architecture-and-Organization) | Spring 2023 |
 | `ECE:3360`   | [Embedded Systems](https://github.com/bmcano/Homework-Assignments/tree/main/Embedded-Systems) | Spring 2023 |
-| `ECE:4880`   | Principles of ECE Design (*In progress*) | Fall 2023 |
-| `ECE:5820`   | Software Engineering Languages and Tools (*In progress*) | Fall 2023 |
-| `ECE:5845`   | Modern Databases (*In progress*) | Fall 2023 |
+| `ECE:4880`   | [Principles of ECE Design](https://github.com/bmcano/Homework-Assignments/tree/main/Principles-ECE-Design) | Fall 2023 |
+| `ECE:5820`   | [Software Engineering Languages and Tools](https://github.com/bmcano/Homework-Assignments/tree/main/Software-Engineering-Languages-Tools) | Fall 2023 |
+| `ECE:5845`   | [Modern Databases](https://github.com/bmcano/Homework-Assignments/tree/main/Modern-Databases) | Fall 2023 |
 | `ENGR:1300`  | [Introduction to Engineering Computing](https://github.com/bmcano/Homework-Assignments/tree/main/Introduction-to-Engineering-Computing) | Fall 2020 |
 | `ENGR:2730`  | [Computers in Engineering](https://github.com/bmcano/Homework-Assignments/tree/main/Computers-In-Engineering) | Fall 2021 |
 | `Misc.`      | [Miscellaneous Assignments/Projects](https://github.com/bmcano/Homework-Assignments/tree/main/Miscellaneous) | - |
