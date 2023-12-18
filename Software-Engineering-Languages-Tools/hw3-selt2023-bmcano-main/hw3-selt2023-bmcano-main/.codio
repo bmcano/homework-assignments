@@ -1,0 +1,17 @@
+{
+    // This file is used to configure the three buttons along Codio's top menu.
+    
+    // Run button configuration
+    "commands": {
+        "Run": "ruby {{filename}}"
+    },
+    // Preview button configuration
+    "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+    },
+  "debugger": [],
+  "autogradeTestScripts": [".guides/secure/grader.sh 2",".guides/secure/grader.sh 1",".guides/secure/grader.sh 1 /home/codio/workspace/.guides/secure/hw-ruby-advanced-ci/solutions/lib",".guides/secure/grader.sh 2 /home/codio/workspace/.guides/secure/hw-ruby-advanced-ci/solutions/lib",".guides/secure/grader.sh 3 /home/codio/workspace/.guides/secure/hw-ruby-advanced-ci/solutions/lib",".guides/secure/grader.sh 4 /home/codio/workspace/.guides/secure/hw-ruby-advanced-ci/solutions/lib",".guides/secure/grader.sh 5 /home/codio/workspace/.guides/secure/hw-ruby-advanced-ci/solutions/lib"]
+}

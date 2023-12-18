@@ -1,0 +1,13 @@
+#https://git-scm.com/book/en/v2/Git-Tools-Submodules
+# git clone --recurse-submodules <URL> 
+# git submodule add <URL> <dest path>
+# git submodule update --init --recursive
+# 
+[submodule "hw-ruby-advanced"]
+	path = hw-ruby-advanced
+	url = https://github.com/uiowajohnsonhj/hw-ruby-advanced.git
+        branch = master
+[submodule ".guides/secure/hw-ruby-advanced-ci"]
+	path = .guides/secure/hw-ruby-advanced-ci
+	url = https://github.com/UIOWAjohnsonhj/hw-ruby-advanced-ci.git
+	branch = master

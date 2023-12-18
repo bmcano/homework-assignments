@@ -1,0 +1,8 @@
+[submodule ".guides/secure/hw-oracle-bacon-ci"]
+	path = .guides/secure/hw-oracle-bacon-ci
+	url = https://github.com/UIOWAjohnsonhj/hw-oracle-bacon-ci.git
+	branch = master
+[submodule "hw-oracle-bacon"]
+	path = hw-oracle-bacon
+	url = https://github.com/UIOWAjohnsonhj/hw-oracle-bacon.git
+	branch = master
