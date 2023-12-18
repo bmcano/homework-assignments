@@ -7,3 +7,11 @@ Introduction to contemporary database architectures including relational, key-va
 
 #### Assignment Notes:
 Only a few homeworks had programming components to them
+
+#### Final Project:
+We had a group of 3 for the final project. The forked project can be found [here](https://github.com/bmcano/song-recommendations).
+
+The members of the project were:
+- Brandon Cano (Me)
+- Brandon Egger
+- Gokul Thangavel
