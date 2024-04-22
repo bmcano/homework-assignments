@@ -14,8 +14,8 @@ Each class will have a README that contains information relating to the course.
 | `ECE:3350`   | [Computer Architecture and Organization](https://github.com/bmcano/Homework-Assignments/tree/main/Computer-Architecture-and-Organization) | Spring 2023 |
 | `ECE:3360`   | [Embedded Systems](https://github.com/bmcano/Homework-Assignments/tree/main/Embedded-Systems) | Spring 2023 |
 | `ECE:4880`   | [Principles of ECE Design](https://github.com/bmcano/Homework-Assignments/tree/main/Principles-ECE-Design) | Fall 2023 |
-| `ECE:4890`   | *Senior ECE Desgin* (WIP) | Spring 2024 |
-| `ECE:5550`   | *Internet of Things* (WIP) | Spring 2024 |
+| `ECE:4890`   | [Senior Design Project](https://github.com/bmcano/workday-wellness-app) (WIP) | Spring 2024 |
+| `ECE:5550`   | [Internet of Things](https://github.com/bmcano/Homework-Assignments/tree/main/Internet-of-Things) (WIP) | Spring 2024 |
 | `ECE:5820`   | [Software Engineering Languages and Tools](https://github.com/bmcano/Homework-Assignments/tree/main/Software-Engineering-Languages-Tools) | Fall 2023 |
 | `ECE:5840`   | *Software Security* (WIP) | Spring 2024 |
 | `ECE:5845`   | [Modern Databases](https://github.com/bmcano/Homework-Assignments/tree/main/Modern-Databases) | Fall 2023 |
