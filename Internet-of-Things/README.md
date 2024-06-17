@@ -15,3 +15,5 @@ Internet of things (IoT) describes the evolution of the internet to intelligent 
 - Alex Arand
 - Ian Kuk
 - Rogelio Valle
+
+The final project for this class can be found [here](https://github.com/bmcano/iot-final-project).
