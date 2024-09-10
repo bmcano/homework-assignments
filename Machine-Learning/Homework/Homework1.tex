@@ -1,0 +1,132 @@
+\documentclass[12pt]{article}
+
+% Packages for math symbols and formatting
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% Margins
+\usepackage[a4paper, margin=1in]{geometry}
+
+% Title and Author
+\title{ECE:5450 - Homework 1}
+\author{Brandon Cano}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\maketitle
+
+\section*{Problem 1}
+\textbf{Problem statement:} Independent Random Variables
+
+\bigskip
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item We know that
+    \[
+    E[x] = \int_{-\infty}^{\infty}xp(x)\,dx
+    \]
+    and
+    \[
+    E[f(x, y)] = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}f(x, y)p(x, y)\,dx\,dy
+    \]
+    \item So we can plug in $x + y$ and we get
+    \begin{align*}
+	E[x + y] &= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}(x + y)p(x, y)\,dx\,dy \\
+	&= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xp(x, y)\,dx\,dy + \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}yp(x, y)\,dx\,dy \\
+	E[x + y] &= E_{x} + E_{y} 
+	\end{align*}
+	where
+	\[
+	E_{x} = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xp(x, y)\,dx\,dy,\,
+	E_{y} = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}yp(x, y)\,dx\,dy
+	\]
+    \item We know that a joint PDF is $p(x, y) = p(x)p(y)$, so we can sub this in for both $E_{x}$ and $E_{y}$.
+    \[
+    E_{x} = \int_{-\infty}^{\infty}\left(\int_{-\infty}^{\infty}xp(x)\,dx\right)p(y)\,dy
+    \]
+    where
+    \[
+    E[x] = \int_{-\infty}^{\infty}xp(x)\,dx
+    \]
+    meaning we can get
+    \[
+    E_{x} = E[x] * \int_{-\infty}^{\infty}p(y)\,dy = E[x]
+    \]
+    since 
+    \[
+    \int_{-\infty}^{\infty}p(y)\,dy = 1
+    \]
+    \item We can then follow this same set of steps for $E_{y}$ which will simply to
+    \[
+    E_{y} = \int_{-\infty}^{\infty}\left(\int_{-\infty}^{\infty}yp(y)\,dy\right)p(x)\,dx
+    \]
+    \[
+    E[y] = \int_{-\infty}^{\infty}yp(y)\,dy
+    \]
+    \[
+    E_{y} = E[y] * \int_{-\infty}^{\infty}p(x)\,dx = E[y]
+    \]
+    \item Thus this means that $E[x + y] = E[x] + E[y]$
+\end{enumerate}
+
+\section*{Problem 2}
+\textbf{Problem statement:} Bayes Theorem
+
+\bigskip
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item $c =$ event a women has breast cancer, and $m = $ event that the Mammogram test is positive. 
+    \item We know: $P(c) = 0.12, P(m|c) = 0.80, P(\neg m|c) = 0.20, P(m|\neg c) = 0.08, P(\neg m|\neg c) = 0.92$
+    \item (a) - We need $P(c|m) = \frac{P(m|c)P(c)}{P(m)}$
+	\[
+	P(m) = P(m|c)P(c) + P(m|\neg c)P(\neg c)
+	\]    
+	\[
+	P(\neg c) = 1 - P(c) = 1 - 0.12 = 0.88
+	\]
+	\[
+	P(m) = (0.80)(0.12) + (0.08)(0.88) = 0.096 + 0.0704 = 0.1664
+	\]
+	\[
+	P(c|m) = \frac{(0.8)(0.12)}{(0.1664)} = 0.576923 \approx \boxed{57.7\%}
+	\]
+	\item (b) - We need $P(c|\neg m) = \frac{P(\neg m|c)P(c)}{P(\neg m)}$
+	\[
+	P(\neg m) = P(\neg m|c)P(c) + P(m|\neg c)P(\neg c)
+	\]    
+	\[
+	P(\neg m) = (0.20)(0.12) + (0.92)(0.88) = 0.024 + 0.8096 = 0.8336
+	\]
+	\[
+	P(c|\neg m) = \frac{(0.20)(0.12)}{(0.8336)} = 0.028791 \approx \boxed{2.88\%}
+	\]
+\end{enumerate}
+
+\section*{Problem 3}
+\textbf{Problem statement:} Sample Mean of Gaussian Random Variables
+
+\bigskip
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item We know $i = 1 ... N$ and the sample mean $\hat{\mu} = \frac{1}{N}\sum_{i=1}^{N}x_{i}$
+    \item Then we can find the expected value using the sample mean $E[\hat{\mu}]$.
+    \[
+    E[\hat{\mu}] = E\left[\frac{1}{N}\sum_{i=1}^{N}x_{i}\right] = \frac{1}{N}\sum_{i=1}^{N}E[x_{i}]
+    \]
+    \item Since each $x_{i}$ comes from a Gaussian distribution with mean $\mu$ we know $E[x_{i}] = \mu$ for all $i$ thus,
+    \[
+    E[\hat{\mu}] = \frac{1}{N}\sum_{i=1}^{N}\mu = \frac{1}{N}*N\mu = \mu
+    \]
+    \item Thus $E[\hat{\mu}] = \mu$ proving $\hat{\mu}$ is an unbiased estimator of the population mean $\mu$.
+\end{enumerate}
+
+\end{document}
