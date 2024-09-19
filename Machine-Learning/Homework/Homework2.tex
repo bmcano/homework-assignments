@@ -1,0 +1,125 @@
+\documentclass[12pt]{article}
+
+% Packages for math symbols and formatting
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% Margins
+\usepackage[a4paper, margin=1in]{geometry}
+
+% Title and Author
+\title{ECE:5450 - Homework 2}
+\author{Brandon Cano}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\maketitle
+
+\section*{Problem 1}
+
+We know that
+\[
+r = \begin{bmatrix}
+x \\
+y
+\end{bmatrix},\,
+\mu = E[r] = \begin{bmatrix}
+1 \\
+2
+\end{bmatrix},\,
+\sum = E\left[(r - \mu)(r - \mu)^{T}\right]= \begin{bmatrix}
+1 & 0 \\
+0 & 8
+\end{bmatrix}
+\]
+and that $\sum$ is diagonal because of the placement of 0, this means that $x$ and $y$ are independent.
+This means that we can split the value $E[x^{2}y]$ into
+\[ E[x^{2}y] = E[x^{2}] * E[y] \]
+and solve them one at a time.
+For $E[x^{2}]$, we have $x$ distributed as $P(x) = \cal{N}$:
+\[ 
+E[x^{2}] = Var(x) + E[x]^{2}
+\]
+We know that $E[x] = 1$ because we derive that from $\mu$ and that the $Var(x) = 1$ because the covariance matrix is diagonal and thus independent we can pull the 1 directly from it. 
+So we get
+\[ 
+E[x^{2}] = Var(x) + E[x]^{2} = 1 + 1^{2} = 2
+\]
+For $E[y]$, we have $y$ distributed as $P(y) = \cal{N}$ and we can see that 
+\[
+E[y] = 2
+\]
+Thus,
+\[
+E[x^{2}y] = E[x^{2}] * E[y] = 2 * 2 = \boxed{4}
+\]
+
+\section*{Problem 2}
+
+\begin{enumerate}
+    \item[\textbf{a.}] Since $p(x)$ is exponential we just need to maximize $-\frac{1}{2}(x - \mu)^{T}\sum^{-1}(x - \mu)$. 
+    To do this we need $(x - \mu) = 0$.
+    So this exponential then becomes:
+    \[
+    -\frac{1}{2}(x - \mu)^{T}\sum^{-1}(x - \mu) = 0
+    \]
+    \[
+    (x - \mu)^{T}\sum^{-1}(x - \mu) = 0
+    \]
+    \[
+    (x - \mu)^{T}(x - \mu) = 0
+    \]
+    \[
+    (x - \mu) = 0
+    \]
+    Thus we get $exp(0) = 1$ so, 
+    \[
+    x = \mu
+    \]
+    \textit{TODO: come back to this part - unsure about this}
+    \item[\textbf{b.}] part 2
+    
+	\item[\textbf{c.}] part 3
+	
+\end{enumerate}
+
+\section*{Problem 3}
+
+\begin{enumerate}
+    \item We know $i = 1 ... N$ and the sample mean $\hat{\mu} = \frac{1}{N}\sum_{i=1}^{N}x_{i}$
+    \item Then we can find the expected value using the sample mean $E[\hat{\mu}]$.
+    \[
+    E[\hat{\mu}] = E\left[\frac{1}{N}\sum_{i=1}^{N}x_{i}\right] = \frac{1}{N}\sum_{i=1}^{N}E[x_{i}]
+    \]
+    \item Since each $x_{i}$ comes from a Gaussian distribution with mean $\mu$ we know $E[x_{i}] = \mu$ for all $i$ thus,
+    \[
+    E[\hat{\mu}] = \frac{1}{N}\sum_{i=1}^{N}\mu = \frac{1}{N}*N\mu = \mu
+    \]
+    \item Thus $E[\hat{\mu}] = \mu$ proving $\hat{\mu}$ is an unbiased estimator of the population mean $\mu$.
+\end{enumerate}
+
+\section*{Problem 4}
+\textbf{Problem statement:} Sample Mean of Gaussian Random Variables
+
+\bigskip
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item We know $i = 1 ... N$ and the sample mean $\hat{\mu} = \frac{1}{N}\sum_{i=1}^{N}x_{i}$
+    \item Then we can find the expected value using the sample mean $E[\hat{\mu}]$.
+    \[
+    E[\hat{\mu}] = E\left[\frac{1}{N}\sum_{i=1}^{N}x_{i}\right] = \frac{1}{N}\sum_{i=1}^{N}E[x_{i}]
+    \]
+    \item Since each $x_{i}$ comes from a Gaussian distribution with mean $\mu$ we know $E[x_{i}] = \mu$ for all $i$ thus,
+    \[
+    E[\hat{\mu}] = \frac{1}{N}\sum_{i=1}^{N}\mu = \frac{1}{N}*N\mu = \mu
+    \]
+    \item Thus $E[\hat{\mu}] = \mu$ proving $\hat{\mu}$ is an unbiased estimator of the population mean $\mu$.
+\end{enumerate}
+
+
+\end{document}
