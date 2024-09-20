@@ -79,47 +79,181 @@ E[x^{2}y] = E[x^{2}] * E[y] = 2 * 2 = \boxed{4}
     \[
     x = \mu
     \]
-    \textit{TODO: come back to this part - unsure about this}
-    \item[\textbf{b.}] part 2
-    
-	\item[\textbf{c.}] part 3
+    \item[\textbf{b.}] Since we know that $x \sim \cal{N}(\mu, \sum)$ we can use the second-moment formula which gives us
+    \[
+    E[xx^{T}] = Cov(x) + E[x]E[x]^{T}
+    \]
+    The $Cov(x)$ is given by $x \sim \cal{N}(\mu, \sum)$ so $Cov(x) = \sum$. 
+    As well as we know that the expectation of $x$ is $\mu$.
+    Thus we get
+    \[
+    E[xx^{T}] = \sum + \mu\mu^{T}
+    \]
+	\item[\textbf{c.}] To solve this we need to separate the parts into 2 cases.
+	For the case $m = n$, the expectation is the same as in part \textbf{b.} so that means we get
+	\[
+	E[x_{m}x_{n}^{T}] = \sum + \mu\mu^{T}
+	\]
+	For the case $m \neq n$, since they are independent the covariance is 0, which means we get
+	\[
+	E[x_{m}x_{n}^{T}] = \mu\mu^{T}
+	\]
+	For combining the two parts, we bring in the delta function, since we know in the case of $m = n$ the value is 1 and 0 otherwise, we can add it to the $\sum$ value.
+	So by combining these parts we get
+	\[
+	\boxed{E[x_{m}x_{n}^{T}] = \sum\delta(m - n) + \mu\mu^{T}}
+	\]
 	
 \end{enumerate}
 
 \section*{Problem 3}
 
-\begin{enumerate}
-    \item We know $i = 1 ... N$ and the sample mean $\hat{\mu} = \frac{1}{N}\sum_{i=1}^{N}x_{i}$
-    \item Then we can find the expected value using the sample mean $E[\hat{\mu}]$.
-    \[
-    E[\hat{\mu}] = E\left[\frac{1}{N}\sum_{i=1}^{N}x_{i}\right] = \frac{1}{N}\sum_{i=1}^{N}E[x_{i}]
-    \]
-    \item Since each $x_{i}$ comes from a Gaussian distribution with mean $\mu$ we know $E[x_{i}] = \mu$ for all $i$ thus,
-    \[
-    E[\hat{\mu}] = \frac{1}{N}\sum_{i=1}^{N}\mu = \frac{1}{N}*N\mu = \mu
-    \]
-    \item Thus $E[\hat{\mu}] = \mu$ proving $\hat{\mu}$ is an unbiased estimator of the population mean $\mu$.
-\end{enumerate}
+We know that $\cal{L}$ $(x, y, \lambda) = f(x, y) + \lambda g(x, y)$ and from the problem we know $f(x, y) = x^{2} + 2y^{2}$ and $g(x, y) = y - 3x - 2$.
+Then we start with the min-max problem but we will flip it to start by solving for the min values first so we get
+\[
+\underset{\lambda}{max}\, \underset{x, y}{min} \, \cal{L} (\textit{x}, \textit{y}, \lambda)
+\]
+and now we first start solving
+\[
+\underset{x, y}{min} \,\, x^{2} + 2y^{2} + \lambda (y - 3x - 2)
+\]
+First we take the partial derivatives with respect to $x$ and $y$.
+\[
+D_{x, y} \cal{L} (\textit{x}, \textit{y}) = 
+\begin{pmatrix}
+\frac{\partial\cal{L}}{\partial x} \\
+\frac{\partial\cal{L}}{\partial y}
+\end{pmatrix} =
+\begin{pmatrix}
+2x - 3\lambda \\
+4y + \lambda
+\end{pmatrix} 
+\]
+Then we solve for $x$ and $y$
+\begin{minipage}[t]{0.2\textwidth}
+\[
+2x - 3\lambda = 0 \\
+\]
+\[
+2x = 3\lambda 
+\]
+\[
+x = \frac{3}{2}\lambda
+\]    
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth}
+\[
+4y + \lambda = 0 \\
+\]
+\[
+4y = -\lambda
+\]
+\[
+y = \frac{-\lambda}{4}
+\]
+\end{minipage}
+
+Then we plug these back into the original equation, take its' derivative with respect to $\lambda$ then solve for $\lambda$.
+\[
+{\cal{L}} (\textit{x}, \textit{y}, \lambda) = 
+(\frac{3}{2}\lambda)^{2} + 2(\frac{-\lambda}{4})^{2} + 
+\lambda ((\frac{-\lambda}{4}) - 3(\frac{3}{2}\lambda) - 2)
+= \frac{-19}{8}\lambda^{2} - 2\lambda
+\]
+\[
+\frac{\partial\cal{L}}{\partial\lambda} = \frac{-19}{4}\lambda - 2 = 0
+\]
+\[
+\lambda = \frac{-8}{19}
+\]
+Next we take this value and plug it back into the $x$ and $y$ we found earlier
+\[
+x = \frac{3}{2}*\frac{-8}{19} = \frac{-12}{19}
+\]
+\[
+y = \frac{-1}{4} * \frac{-8}{19} = \frac{2}{19}
+\]
+and we get
+\[
+\boxed{(x, y) = \left(\frac{-12}{19}, \frac{2}{19}\right)}
+\]
+
 
 \section*{Problem 4}
-\textbf{Problem statement:} Sample Mean of Gaussian Random Variables
 
-\bigskip
+We know that $R(h, s) = 4hs$ and the constraint is $20h + 10s = 100$ so we get $\cal{L}$ $(x, y, \lambda) = 4hs + \lambda (100 - 20h - 10s)$.
+Then we start with the min-max problem but we will flip it to start by solving for the min values first so we get
+\[
+\underset{\lambda}{max}\, \underset{x, y}{min} \, \cal{L} (\textit{h}, \textit{s}, \lambda)
+\]
+and now we first start solving
+\[
+\underset{x, y}{min} \,\, 4hs + \lambda (100 - 20h - 10s)
+\]
+First we take the partial derivatives with respect to $h$ and $s$.
+\[
+D_{h, s} \cal{L} (\textit{h}, \textit{s}) = 
+\begin{pmatrix}
+\frac{\partial\cal{L}}{\partial h} \\
+\frac{\partial\cal{L}}{\partial s}
+\end{pmatrix} =
+\begin{pmatrix}
+4s - 20\lambda \\
+4h - 10\lambda
+\end{pmatrix} 
+\]
+Then we solve for $h$ and $s$
+\begin{minipage}[t]{0.2\textwidth}
+\[
+4s - 20\lambda = 0 \\
+\]
+\[
+4s = 20\lambda 
+\]
+\[
+s = 5\lambda
+\]    
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth}
+\[
+4h - 10\lambda = 0 \\
+\]
+\[
+4h = 10\lambda
+\]
+\[
+h = \frac{5\lambda}{2}
+\]
+\end{minipage}
 
-\textbf{Solution:}
-
-\begin{enumerate}
-    \item We know $i = 1 ... N$ and the sample mean $\hat{\mu} = \frac{1}{N}\sum_{i=1}^{N}x_{i}$
-    \item Then we can find the expected value using the sample mean $E[\hat{\mu}]$.
-    \[
-    E[\hat{\mu}] = E\left[\frac{1}{N}\sum_{i=1}^{N}x_{i}\right] = \frac{1}{N}\sum_{i=1}^{N}E[x_{i}]
-    \]
-    \item Since each $x_{i}$ comes from a Gaussian distribution with mean $\mu$ we know $E[x_{i}] = \mu$ for all $i$ thus,
-    \[
-    E[\hat{\mu}] = \frac{1}{N}\sum_{i=1}^{N}\mu = \frac{1}{N}*N\mu = \mu
-    \]
-    \item Thus $E[\hat{\mu}] = \mu$ proving $\hat{\mu}$ is an unbiased estimator of the population mean $\mu$.
-\end{enumerate}
+Then we plug these back into the original equation, take its' derivative with respect to $\lambda$ then solve for $\lambda$.
+\[
+{\cal{L}} (\textit{h}, \textit{s}, \lambda) = 
+4(\frac{5}{2}\lambda )(5\lambda ) + \lambda (100 - 20(\frac{5}{2}\lambda ) - 10(5\lambda )) = 100\lambda - 50\lambda^{2} = 0
+\]
+\[
+\frac{\partial\cal{L}}{\partial\lambda} = 100 - 100\lambda = 0
+\]
+\[
+\lambda = 1
+\]
+Next we take this value and plug it back into the $x$ and $y$ we found earlier
+\[
+h = \frac{5}{2}(1) = \frac{5}{2}
+\]
+\[
+s = 5(1) = 5
+\]
+and we get
+\[
+\boxed{R(\frac{5}{2}, 5) = 4 * \frac{5}{2} * 5 = 50}
+\]
+and we can see that
+\[
+20 * \frac{5}{2} + 10(5) = \frac{100}{2} + 50 = 100
+\]
 
 
 \end{document}
