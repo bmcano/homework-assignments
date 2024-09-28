@@ -1,0 +1,241 @@
+\documentclass[12pt]{article}
+
+% Packages for math symbols and formatting
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% Margins
+\usepackage[a4paper, margin=1in]{geometry}
+
+% Title and Author
+\title{ECE:5450 - Homework 3}
+\author{Brandon Cano}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\maketitle
+
+\section*{Problem 1}
+
+
+\begin{enumerate}
+	\item[a.] We know $T(t) = \theta_{0} + \theta_{1}t$, and $X\theta = y$ where
+	\[
+	X = \begin{bmatrix}
+	1 & 1.850 \\
+	1 & 1.900 \\
+	1 & 1.950 \\
+	1 & 2.021
+	\end{bmatrix},\,
+	y = \begin{bmatrix}
+	75 \\
+	75 \\
+	77 \\
+	90
+	\end{bmatrix}
+	\]
+	
+	\item[b.] We need to solve for $\theta_{LS} = (X^{T}X)^{-1}X^{T}y$
+	\[
+	X^{T}X = \begin{bmatrix}
+	1 & 1 & 1 & 1 \\
+	1.850 & 1.900 & 1.950 & 2.021
+	\end{bmatrix}
+	\begin{bmatrix}
+	1 & 1.850 \\
+	1 & 1.900 \\
+	1 & 1.950 \\
+	1 & 2.021
+	\end{bmatrix} =
+	\begin{bmatrix}
+	4 & 7.72 \\
+	7.72 & 14.92 
+	\end{bmatrix}
+	\]
+	\[
+	X^{T}y = \begin{bmatrix}
+	1 & 1 & 1 & 1 \\
+	1.850 & 1.900 & 1.950 & 2.021
+	\end{bmatrix}
+	\begin{bmatrix}
+	75 \\ 75 \\ 77 \\ 90
+	\end{bmatrix} =
+	\begin{bmatrix}
+	236 \\ 449.6
+	\end{bmatrix}
+	\]
+	\[
+	(X^{T}X)^{-1}X^{T}y = \begin{bmatrix}
+	4 & 7.72 \\
+	7.72 & 14.92 
+	\end{bmatrix}^{-1}
+	\begin{bmatrix}
+	236 \\ 449.6
+	\end{bmatrix} = 
+	\begin{bmatrix}
+	-89.9 \\ 87.7
+	\end{bmatrix}
+	\]
+	So we get $\theta_{0} = -89.9$, $\theta_{1} = 87.7$, and $T(t) = -89.9+87.7t$.
+	
+	\item[c.]
+	\[
+	\epsilon (\theta ) = || W(X\theta - y)||^{2} = (W(X\theta - y))^{T}(W(X\theta - y)) = (X\theta - y)^{T}W^{2}(X\theta - y)
+	\]
+	\[
+	= \theta^{T}X^{T}W^{2}X\theta - 2yW^{2}X\theta + X^{T}W^{2}y
+	\]
+	\[
+	\nabla_{\theta} \epsilon (\theta ) = 2X^{T}W^{2}X\theta - 2X^{T}W^{2}y = 0
+	\]
+	\[
+	X^{T}W^{2}X\theta - X^{T}W^{2}y = 0
+	\]
+	\[
+	X^{T}W^{2}X\theta = X^{T}W^{2}y 
+	\]
+	\[
+	\theta = (X^{T}W^{2}X)^{-1}X^{T}W^{2}y
+	\]
+	
+	\item[d. ]We need to solve for $\theta_{WLS} = (X^{T}W^{2}X)^{-1}X^{T}W^{2}y$
+	\[
+	X^{T}W^{2}X = \begin{bmatrix}
+	1 & 1 & 1 & 1 \\
+	1.850 & 1.900 & 1.950 & 2.021
+	\end{bmatrix}
+	\begin{bmatrix}
+	1/5 & 0 & 0 & 0 \\
+	0 & 1/4 & 0 & 0 \\
+	0 & 0 & 1 & 0 \\
+	0 & 0 & 0 & 10
+	\end{bmatrix}^{2}
+	\begin{bmatrix}
+	1 & 1.850 \\
+	1 & 1.900 \\
+	1 & 1.950 \\
+	1 & 2.021
+	\end{bmatrix} =
+	\begin{bmatrix}
+	101.1 & 204.2 \\
+	204.2 & 412.6
+	\end{bmatrix}
+	\]
+	\[
+	X^{T}W^{2}y = \begin{bmatrix}
+	1 & 1 & 1 & 1 \\
+	1.850 & 1.900 & 1.950 & 2.021
+	\end{bmatrix}
+	\begin{bmatrix}
+	1/5 & 0 & 0 & 0 \\
+	0 & 1/4 & 0 & 0 \\
+	0 & 0 & 1 & 0 \\
+	0 & 0 & 0 & 10
+	\end{bmatrix}^{2}
+	\begin{bmatrix}
+	75 \\ 75 \\ 77 \\ 90
+	\end{bmatrix} =
+	\begin{bmatrix}
+	9084.7 \\ 18353.6
+	\end{bmatrix}
+	\]
+	\[
+	(X^{T}W^{2}X)^{-1}X^{T}W^{2}y = \begin{bmatrix}
+	101.1 & 204.2 \\
+	204.2 & 412.6
+	\end{bmatrix}
+	\begin{bmatrix}
+	9084.7 \\ 18353.6
+	\end{bmatrix}	
+	= \begin{bmatrix}
+	-232.85 \\ 159.74
+	\end{bmatrix}	
+	\]
+	So we get $\theta_{0} = -232.85$, $\theta_{1} = 159.74$, and $T(t) = -232.85+159.74t$.
+	\item[e.] We have from parts (b) and (d) the functions $T_{b}(t) = -89.9+87.7t$ and $T_{d}(t) = -237.85 + 159.74t$, respectively.
+	After plugging in all the values we get
+	\begin{itemize}
+		\item $T_{b}(1.850) = 72.35$
+		\item $T_{b}(1.900) = 76.73$
+		\item $T_{b}(1.950) = 81.12$
+		\item $T_{b}(2.021) = 87.34$
+		
+		\item $T_{d}(1.850) = 62.67$
+		\item $T_{d}(1.900) = 70.66$
+		\item $T_{d}(1.950) = 78.64$
+		\item $T_{d}(2.021) = 89.98$
+	\end{itemize}
+	
+	We can see from these results and after plotting that both models generally fit the data points.
+	However, the WLS model is more inaccurate for the time frames with the variance is much higher, so both 1.850 and 1.900 are far off whereas 1.950 and 2.021 are much closer.
+	While the LS model is more overall accurate since it didn't have any wide variance to skew the data from the median point.
+	
+	\item[f.] 
+	For $\theta_{LS}$ we get 89.89
+	
+	For $\theta_{WLS}$ we get 94.62
+	\item[g.] $T(t) = \theta_{0} + \theta_{1}t + \theta_{2}t^{2}$
+	\[
+	X^{T}X = \begin{bmatrix}
+	1 & 1 & 1 & 1 \\
+	1.850 & 1.900 & 1.950 & 2.021 \\
+	1.850^{2} & 1.900^{2} & 1.950^{2} & 2.021^{2}
+	\end{bmatrix}
+	\begin{bmatrix}
+	1 & 1.850 & 1.850^{2}\\
+	1 & 1.900 & 1.900^{2}\\
+	1 & 1.950 & 1.950^{2}\\
+	1 & 2.021 & 2.021^{2}
+	\end{bmatrix} =
+	\begin{bmatrix}
+	4 & 7.72 & 14.92 \\
+	7.72 & 14.92 & 28.86 \\
+	14.92 & 28.86 & 55.89  
+	\end{bmatrix}
+	\]
+	\[
+	X^{T}y = \begin{bmatrix}
+	1 & 1 & 1 & 1 \\
+	1.850 & 1.900 & 1.950 & 2.021 \\
+	1.850^{2} & 1.900^{2} & 1.950^{2} & 2.021^{2}
+	\end{bmatrix}
+	\begin{bmatrix}
+	75 \\ 75 \\ 77 \\ 90
+	\end{bmatrix} =
+	\begin{bmatrix}
+	317 \\ 613.3 \\ 1187.8
+	\end{bmatrix}
+	\]
+	\[
+	(X^{T}X)^{-1}X^{T}y = \begin{bmatrix}
+	4 & 7.72 & 14.92 \\
+	7.72 & 14.92 & 28.86 \\
+	14.92 & 28.86 & 55.89  
+	\end{bmatrix}^{-1}
+	\begin{bmatrix}
+	317 \\ 613.3 \\ 1187.8
+	\end{bmatrix} = 
+	\begin{bmatrix}
+	3165.6 \\ -3277.7 \\ 868.8
+	\end{bmatrix}
+	\]
+	So we get $\theta_{0} = 3165.6$, $\theta_{1} = -3277.7$, $\theta_{2} = 868.8$, and $T(t) = 3165.6 - 3277.7t + 868.8t^{2}$.
+	
+	\begin{itemize}
+		\item $T(1.850) = 75.3$
+		\item $T(1.900) = 74.3$
+		\item $T(1.950) = 77.6$
+		\item $T(2.021) = 89.8$
+		\item $T(2.050) = 97.7$
+	\end{itemize}
+	
+\section*{Problem 2}
+
+Code and explanation is on the .ipynb file
+	
+\end{enumerate}
+
+\end{document}
