@@ -10,7 +10,7 @@ Each class will have a README that contains information relating to the course.
 | `CS:2230`    | [Computer Science 2: Data Structures](https://github.com/bmcano/Homework-Assignments/tree/main/Computer-Science-2) | Spring 2022 |
 | `CS:3620`    | [Operating Systems](https://github.com/bmcano/Homework-Assignments/tree/main/Operating-Systems) | Fall 2023 |
 | `CS:3820`    | [Programming Language Concepts](https://github.com/bmcano/Homework-Assignments/tree/main/Programming-Language-Concepts) | Spring 2023 |
-| `ECE:3330`   | [Introduction to Software Design](https://github.com/bmcano/Homework-Assignments/tree/main/Software%20Design) | Fall 2022 |
+| `ECE:3330`   | [Introduction to Software Design](https://github.com/bmcano/homework-assignments/tree/main/Software-Design) | Fall 2022 |
 | `ECE:3350`   | [Computer Architecture and Organization](https://github.com/bmcano/Homework-Assignments/tree/main/Computer-Architecture-and-Organization) | Spring 2023 |
 | `ECE:3360`   | [Embedded Systems](https://github.com/bmcano/Homework-Assignments/tree/main/Embedded-Systems) | Spring 2023 |
 | `ECE:4880`   | [Principles of ECE Design](https://github.com/bmcano/Homework-Assignments/tree/main/Principles-ECE-Design) | Fall 2023 |
