@@ -1,9 +1,10 @@
-# homework-assignments
+# Homework Assignments
 
-This repository has my past homework assignments and projects that required some sort of programming from classes I took at the University of Iowa. 
-Each class will have a README that contains information relating to the course.
+This repository contains my past homework assignments and projects involving programming from the classes I took at the University of Iowa during my undergraduate and graduate studies. 
+Most classes include a README with information about the course.
+Some projects may also link to other repositories.
 
-### Classes
+## Classes
 | Class Number | Class Name | Session |  
 |--------------|------------|---------|
 | `CS:1210`    | [Computer Science 1: Fundamentals](https://github.com/bmcano/homework-assignments/tree/main/Computer-Science-1) | Spring 2021 |
@@ -19,9 +20,11 @@ Each class will have a README that contains information relating to the course.
 | `ECE:5450`   | [Machine Learning](https://github.com/bmcano/homework-assignments/tree/main/Machine-Learning) | Fall 2024 |
 | `ECE:5550`   | [Internet of Things](https://github.com/bmcano/homework-assignments/tree/main/Internet-of-Things) | Spring 2024 |
 | `ECE:5820`   | [Software Engineering Languages and Tools](https://github.com/bmcano/homework-assignments/tree/main/Software-Engineering-Languages-Tools) | Fall 2023 |
+| `ECE:5830`   | Software Engineering Project - *In progress* | Spring 2025 |
 | `ECE:5840`   | [Software Security](https://github.com/bmcano/homework-assignments/tree/main/Software-Security) | Spring 2024 |
 | `ECE:5845`   | [Modern Databases](https://github.com/bmcano/homework-assignments/tree/main/Modern-Databases) | Fall 2023 |
 | `ECE:5995`   | [Generative AI Tools](https://github.com/bmcano/gait-final-project) | Fall 2024 |
+| `ECE:5995`   | Large Language Models - *In progress* | Spring 2025 | 
 | `ENGR:1300`  | [Introduction to Engineering Computing](https://github.com/bmcano/homework-assignments/tree/main/Introduction-to-Engineering-Computing) | Fall 2020 |
 | `ENGR:2730`  | [Computers in Engineering](https://github.com/bmcano/homework-assignments/tree/main/Computers-In-Engineering) | Fall 2021 |
 | `Misc.`      | [Miscellaneous Assignments/Projects](https://github.com/bmcano/homework-assignments/tree/main/Miscellaneous) | - |
