@@ -20,11 +20,11 @@ Some projects may also link to other repositories.
 | `ECE:5450`   | [Machine Learning](https://github.com/bmcano/homework-assignments/tree/main/Machine-Learning) | Fall 2024 |
 | `ECE:5550`   | [Internet of Things](https://github.com/bmcano/homework-assignments/tree/main/Internet-of-Things) | Spring 2024 |
 | `ECE:5820`   | [Software Engineering Languages and Tools](https://github.com/bmcano/homework-assignments/tree/main/Software-Engineering-Languages-Tools) | Fall 2023 |
-| `ECE:5830`   | Software Engineering Project - *In progress* | Spring 2025 |
+| `ECE:5830`   | [Software Engineering Project](https://github.com/bmcano/sep2025-project-team_006) | Spring 2025 |
 | `ECE:5840`   | [Software Security](https://github.com/bmcano/homework-assignments/tree/main/Software-Security) | Spring 2024 |
 | `ECE:5845`   | [Modern Databases](https://github.com/bmcano/homework-assignments/tree/main/Modern-Databases) | Fall 2023 |
 | `ECE:5995`   | [Generative AI Tools](https://github.com/bmcano/gait-final-project) | Fall 2024 |
-| `ECE:5995`   | Large Language Models - *In progress* | Spring 2025 | 
+| `ECE:5995`   | Large Language Models | Spring 2025 | 
 | `ENGR:1300`  | [Introduction to Engineering Computing](https://github.com/bmcano/homework-assignments/tree/main/Introduction-to-Engineering-Computing) | Fall 2020 |
 | `ENGR:2730`  | [Computers in Engineering](https://github.com/bmcano/homework-assignments/tree/main/Computers-In-Engineering) | Fall 2021 |
 | `Misc.`      | [Miscellaneous Assignments/Projects](https://github.com/bmcano/homework-assignments/tree/main/Miscellaneous) | - |
